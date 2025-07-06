@@ -13,10 +13,6 @@ This project is a machine learning-based spam email classifier that detects whet
 ├── tfidf_vectorizer.pkl # Trained TF-IDF vectorizer
 ├── train_model.py # Script to train and save the model
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧠 Technologies Used
@@ -37,20 +33,13 @@ Edit
 git clone <your-repo-url>
 cd your-repo-directory
 2. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 If requirements.txt is not available, install manually:
 
-bash
-Copy
-Edit
 pip install pandas scikit-learn streamlit
+
 3. Train the Model (optional)
-bash
-Copy
-Edit
 python train_model.py
 This will generate:
 
@@ -59,9 +48,6 @@ spam_classifier_model.pkl
 tfidf_vectorizer.pkl
 
 4. Run the Streamlit App
-bash
-Copy
-Edit
 streamlit run app.py
 Then, open http://localhost:8501 in your browser to access the app.
 
